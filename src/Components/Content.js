@@ -11,7 +11,7 @@ const Content = () => {
             </div>
 
             <div className = 'card_header'>
-                <p>{item.position}</p>
+                <p className = 'position'>{item.position}</p>
                 <h2>{item.name}</h2>
                 <p className='price'>{item.price + ' ' + item.currency}</p>
             </div>
