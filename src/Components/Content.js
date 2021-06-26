@@ -18,7 +18,7 @@ const Content = () => {
 
     return (
         <div>
-            <h1>Наша Продукция</h1>
+            <h1 className = 'heading'>Наша Продукция</h1>
             {product}
         </div>
     )
